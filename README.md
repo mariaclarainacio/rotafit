@@ -1,4 +1,3 @@
-cat > README.md <<'EOF'
 # RotaFit
 
 App de corrida com GPS: registra a rota, a distância, o tempo e o ritmo de cada
@@ -63,22 +62,22 @@ O teste do banco usa o PGlite (Postgres real dentro do Node), com o mesmo
 
 ## Arquitetura
 
-app/ rotas (Expo Router)
+```
+app/         rotas (Expo Router)
 src/
-components/ interface, incluindo os componentes “glass/” (Liquid Glass)
-context/ sessão (Google), tema e Spotify
-hooks/ corridas, player do Spotify e o rastreador de GPS
-lib/ Supabase, login Google e Spotify
-services/ acesso ao Supabase
-theme/ tokens de cor (claro/escuro) e o ThemeProvider
-utils/ geolocalização, máquina de estados da corrida — cobertos por testes
+  components/  interface, incluindo os componentes "glass/" (Liquid Glass)
+  context/     sessão (Google), tema e Spotify
+  hooks/       corridas, player do Spotify e o rastreador de GPS
+  lib/         Supabase, login Google e Spotify
+  services/    acesso ao Supabase
+  theme/       tokens de cor (claro/escuro) e o ThemeProvider
+  utils/       geolocalização, máquina de estados da corrida — cobertos por testes
 supabase/
-schema.sql banco, RLS e a função weekly_stats
-tests/ testes do banco
-
+  schema.sql   banco, RLS e a função weekly_stats
+  tests/       testes do banco
+```
 
 ## Autores
 
 - GitHub: https://github.com/mariaclarainacio/rotafit
 - GitHub: https://github.com/TheuznX
-EOF
