@@ -1,3 +1,4 @@
+cat > README.md <<'EOF'
 # RotaFit
 
 App de corrida com GPS: registra a rota, a distância, o tempo e o ritmo de cada
@@ -16,6 +17,13 @@ durante o treino.
   Chiffon, escuro inspirado no Flamengo
 - Interface em **Liquid Glass**: superfícies translúcidas com blur, brilho e
   borda, no app inteiro
+
+## Telas
+
+| Início | Corrida | Histórico | Perfil |
+|---|---|---|---|
+| ![Início](docs/screenshots/home.png) | ![Corrida](docs/screenshots/corrida.png) | ![Histórico](docs/screenshots/historico.png) | ![Perfil](docs/screenshots/perfil.png) |
+
 ## Tecnologias
 
 React Native · Expo · Expo Router · TypeScript · Supabase (Auth com Google,
@@ -55,24 +63,22 @@ O teste do banco usa o PGlite (Postgres real dentro do Node), com o mesmo
 
 ## Arquitetura
 
-```
-app/         rotas (Expo Router)
+app/ rotas (Expo Router)
 src/
-  components/  interface, incluindo os componentes "glass/" (Liquid Glass)
-  context/     sessão (Google), tema e Spotify
-  hooks/       corridas, player do Spotify e o rastreador de GPS
-  lib/         Supabase, login Google e Spotify
-  services/    acesso ao Supabase
-  theme/       tokens de cor (claro/escuro) e o ThemeProvider
-  utils/       geolocalização, máquina de estados da corrida — cobertos por testes
+components/ interface, incluindo os componentes “glass/” (Liquid Glass)
+context/ sessão (Google), tema e Spotify
+hooks/ corridas, player do Spotify e o rastreador de GPS
+lib/ Supabase, login Google e Spotify
+services/ acesso ao Supabase
+theme/ tokens de cor (claro/escuro) e o ThemeProvider
+utils/ geolocalização, máquina de estados da corrida — cobertos por testes
 supabase/
-  schema.sql   banco, RLS e a função weekly_stats
-  tests/       testes do banco
-```
+schema.sql banco, RLS e a função weekly_stats
+tests/ testes do banco
 
-## Autor
 
-**Seu Nome**
+## Autores
 
-- LinkedIn: https://linkedin.com/in/seu-usuario
-- GitHub: https://github.com/seu-usuario
+- GitHub: https://github.com/mariaclarainacio/rotafit
+- GitHub: https://github.com/TheuznX
+EOF
