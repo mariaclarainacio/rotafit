@@ -19,9 +19,10 @@ durante o treino.
 
 ## Telas
 
-| Início | Corrida | Histórico | Perfil |
-|---|---|---|---|
-| ![Início](docs/screenshots/home.png) | ![Corrida](docs/screenshots/corrida.png) | ![Histórico](docs/screenshots/historico.png) | ![Perfil](docs/screenshots/perfil.png) |
+| | Início | Histórico | Perfil | Resumo da corrida |
+|---|---|---|---|---|
+| **Claro** | ![Início claro](docs/screenshots/home-claro.png) | ![Histórico claro](docs/screenshots/historico-claro.png) | ![Perfil claro](docs/screenshots/perfil-claro.png) | |
+| **Escuro** | ![Início escuro](docs/screenshots/home-escuro.png) | ![Histórico escuro](docs/screenshots/historico-escuro.png) | ![Perfil escuro](docs/screenshots/perfil-escuro.png) | ![Resumo da corrida](docs/screenshots/corrida.png) |
 
 ## Tecnologias
 
