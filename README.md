@@ -70,9 +70,7 @@ supabase/
   tests/       testes do banco
 ```
 
-## Autor
+## Autores
 
-**Seu Nome**
-
-- LinkedIn: https://linkedin.com/in/seu-usuario
-- GitHub: https://github.com/seu-usuario
+- GitHub: https://github.com/mariaclarainacio/rotafit.git
+- GitHub: https://github.com/TheuznX
